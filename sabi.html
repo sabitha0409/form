@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>   
+        Body {  
+          font-family: Calibri, Helvetica, sans-serif;
+          background-image:url(https://media.istockphoto.com/id/925183382/photo/amusement-park-in-santa-monica.webp?b=1&s=170667a&w=0&k=20&c=sxaSZub1Nocq_mEtxjM_BxvEnMeZ3be9_1fEE6KQkvY=);
+          background-repeat: no-repeat; 
+          background-size: cover; 
+          background-color:transparent;  
+        }  
+        button {   
+               background-color: #70e4f1;   
+               width: 300px;  
+                color: rgb(18, 16, 8);   
+                padding: 10px;   
+                margin: 10px 0px;   
+                border: none;   
+                cursor: pointer;   
+                 }   
+         form {   
+                
+                width: 500px;
+                margin: left 450px; 
+            }   
+         input[type=text], 
+         input[type=password],
+         input[type=email],
+         input[type=date],
+         {   
+                width: 400px;   
+                margin: 8px 0;  
+                padding: 10px 100px;   
+                display: inline-block;   
+                border: 2px solid green;   
+                box-sizing: border-box;   
+            }  
+         button:hover {   
+                opacity: 0.7;   
+            }   
+          .cancelbtn {   
+                width: auto;   
+                padding: 10px 18px;  
+                margin: 10px 5px;  
+            }   
+                
+             
+         .container {   
+                padding: 25px;   
+                background-color:transparent; 
+                width: 500px ;
+                margin-left: 490px;
+            }   
+        </style>   
+        </head>    
+        <body>    
+            <center> <h1>Login Form </h1> </center>   
+            <form>  
+                <div class="container">   
+                    <label>Username:</label> <br>  
+                    <input type="text" placeholder="Enter Username" name="username" required>  <br><br>
+                    <label>Password :</label> <br> 
+                    <input type="password" placeholder="Enter Password" name="password" required> <br><br>
+                    <label>DOB:</label> <br>
+                    <input type="date" placeholder="DD/MM/YYYY" name="DOB" > <br><br>
+                    <label>Mail ID : </label> <br> 
+                    <input type="email" placeholder="Enter Email ID" name="email" required> <br><br>
+                    <label>Phone number :</label> <br>
+                    <input type="number" placeholder="Enter phone number" name="phone" required> <br>
+                    <button type="submit">Login</button> <br>    
+                    <button type="button" class="cancelbtn"> Cancel</button> <br>  
+                    Forgot <a href="#"> password? </a>   
+                </div>   
+            </form>     
+        </body>     
+        </html>
